@@ -14,7 +14,7 @@ namespace WebApplication1.Properties.Data
             DueEnd = DateTime.Now.AddMonths(1);
         }
         [Required]
-        public int Id { get; set; } // Employee ID
+        public int Id { get; set; } 
 
         [Required]
         [StringLength(100)]
