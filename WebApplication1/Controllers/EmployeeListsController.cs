@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AspNetCore;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,9 +20,9 @@ namespace WebApplication1.Controllers
         }
 
         // GET: EmployeeLists
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(await _context.EmployeeLists.ToListAsync());
+            return View(await _context.EmployeeLists.GetPagedAsync(page, 10));
         }
 
         // GET: EmployeeLists/Details/5
