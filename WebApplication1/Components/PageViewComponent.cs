@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WebApplication1.Properties.Data;
 
-namespace WebApplication1.Properties.Components
+namespace WebApplication1.Components
 {
     public class PagerViewComponent : ViewComponent
     {

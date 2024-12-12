@@ -283,3 +283,15 @@ C:\Users\50704267035\source\repos\WebApplication1\WebApplication1\bin\Debug\net8
 C:\Users\50704267035\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\50704267035\source\repos\WebApplication1\WebApplication1\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 C:\Users\50704267035\source\repos\WebApplication1\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
