@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Properties.Data;  // Adjust the namespace to where your ApplicationDbContext is located
 
@@ -11,7 +12,6 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Or UseSqlite, UseNpgsql, etc.
 
 var app = builder.Build();
-
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
@@ -29,5 +29,16 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+#if DEBUG
+using (var scope = app.Services.CreateScope())
+using (var context = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>())
+using (var userManager = scope.ServiceProvider.GetRequiredService<UserManager<IdentityUser>>())
+{
+    context.Database.EnsureCreated();
+    SeedData.Generate(context, userManager);
+}
+#endif
+
 
 app.Run();

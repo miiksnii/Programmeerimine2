@@ -19,9 +19,9 @@ namespace WebApplication1.Controllers
         }
 
         // GET: ProjectLists
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(await _context.ProjectLists.ToListAsync());
+            return View(await _context.Projects.GetPagedAsync(page, 10));
         }
 
         // GET: ProjectLists/Details/5

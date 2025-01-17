@@ -295,3 +295,15 @@ C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\
 C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
 C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
 C:\Users\kaspar\ta-23a\prog2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.AssemblyReference.cache
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfoInputs.cache
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.AssemblyInfo.cs
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.csproj.CoreCompileInputs.cache
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cache
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.RazorAssemblyInfo.cs
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.sourcelink.json
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.dll
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\refint\WebApplication1.dll
+C:\Users\50704267035\proge2\Programmeerimine2\WebApplication1\obj\Debug\net8.0\WebApplication1.pdb

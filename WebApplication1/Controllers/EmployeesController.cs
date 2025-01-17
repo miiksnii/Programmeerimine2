@@ -19,9 +19,9 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1)
         {
-            return View(await _context.Employees.ToListAsync());
+            return View(await _context.EmployeeLists.GetPagedAsync(page, 10));
         }
 
         // GET: Employees/Details/5

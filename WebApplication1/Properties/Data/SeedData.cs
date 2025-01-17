@@ -6,7 +6,12 @@ namespace WebApplication1.Properties.Data
     {
         public static void Generate(ApplicationDbContext context, UserManager<IdentityUser> userManager)
         {
-            if (context.TodoLists.Any())
+            if (context.Employees.Any())
+            {
+                return;
+            }
+
+            if (context.Projects.Any())
             {
                 return;
             }
@@ -20,7 +25,7 @@ namespace WebApplication1.Properties.Data
 
             userManager.CreateAsync(adminUser, "Password123!");
 
-            var list = new TodoList();
+            var list = new Employees();
             list.Title = "List 1";
             context.TodoLists.Add(list);
 
