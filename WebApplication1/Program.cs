@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using WebApplication1.Properties.Data;  // Adjust the namespace to where your ApplicationDbContext is located
-
+using WebApplication1.Services;
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -13,6 +13,12 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddScoped<IProjectService, ProjectService>();
+builder.Services.AddScoped<IProjectListService, ProjectListService>();
+builder.Services.AddScoped<IEmployeeService, EmployeeService>();
+builder.Services.AddScoped<IEmployeeListService, EmployeeListService>();
+
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.
